@@ -1,7 +1,10 @@
-﻿빌드 시작: 2018-06-01 오후 3:07:20
-     1>2 노드의 "D:\desktop\JoSeongHyeon\UDTvsPS_experiment(C)\UDTvsPS_experiment_180114-C-\UDT_IR\UDT_IR.vcxproj" 프로젝트(Build 대상)입니다.
+﻿빌드 시작: 2018-06-20 오후 2:12:40
+     1>2 노드의 "D:\desktop\JESUSH_exp\UDT_experiment-C\UDT_IR\UDT_IR.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN64 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\UDT_IR.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt UDT_IRDlg.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN64 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\UDT_IR.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN64 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\UDT_IR.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ChartViewer.cpp CommThread.cpp DXRenderer.cpp ModeDlg.cpp UDT_IR.cpp UDT_IRDlg.cpp VRClientSocket.cpp
+         VRClientSocket.cpp
          UDT_IRDlg.cpp
      1>UDT_IRDlg.cpp(336): warning C4101: 'm_Timer' :참조되지 않은 지역 변수입니다.
      1>UDT_IRDlg.cpp(808): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -17,10 +20,16 @@
      1>UDT_IRDlg.cpp(998): warning C4244: '인수' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
      1>UDT_IRDlg.cpp(1563): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
      1>UDT_IRDlg.cpp(2227): warning C4244: 'return' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         UDT_IR.cpp
+         ModeDlg.cpp
+         DXRenderer.cpp
+         CommThread.cpp
+         ChartViewer.cpp
+         코드를 생성하고 있습니다...
        ResourceCompile:
          C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0412" /Ix64\Debug\ /nologo /fo"x64\Debug\UDT_IR.res" UDT_IR.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\desktop\JoSeongHyeon\UDTvsPS_experiment(C)\UDTvsPS_experiment_180114-C-\x64\Debug\UDT_IR.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\lib\x64" /LIBPATH:"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\lib64\msvc" kinect20.lib windowscodecs.lib d2d1.lib nidaqmx.lib chartdir60.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\desktop\JoSeongHyeon\UDTvsPS_experiment(C)\UDTvsPS_experiment_180114-C-\x64\Debug\UDT_IR.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\desktop\JoSeongHyeon\UDTvsPS_experiment(C)\UDTvsPS_experiment_180114-C-\x64\Debug\UDT_IR.lib" /MACHINE:X64 x64\Debug\UDT_IR.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\desktop\JESUSH_exp\UDT_experiment-C\x64\Debug\UDT_IR.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\lib\x64" /LIBPATH:"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\lib64\msvc" kinect20.lib windowscodecs.lib d2d1.lib nidaqmx.lib chartdir60.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\desktop\JESUSH_exp\UDT_experiment-C\x64\Debug\UDT_IR.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\desktop\JESUSH_exp\UDT_experiment-C\x64\Debug\UDT_IR.lib" /MACHINE:X64 x64\Debug\UDT_IR.res
          x64\Debug\ChartViewer.obj
          x64\Debug\CommThread.obj
          x64\Debug\DXRenderer.obj
@@ -29,9 +38,9 @@
          x64\Debug\UDT_IR.obj
          x64\Debug\UDT_IRDlg.obj
          x64\Debug\VRClientSocket.obj
-         UDT_IR.vcxproj -> D:\desktop\JoSeongHyeon\UDTvsPS_experiment(C)\UDTvsPS_experiment_180114-C-\x64\Debug\UDT_IR.exe
-     1>"D:\desktop\JoSeongHyeon\UDTvsPS_experiment(C)\UDTvsPS_experiment_180114-C-\UDT_IR\UDT_IR.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         UDT_IR.vcxproj -> D:\desktop\JESUSH_exp\UDT_experiment-C\x64\Debug\UDT_IR.exe
+     1>"D:\desktop\JESUSH_exp\UDT_experiment-C\UDT_IR\UDT_IR.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:02.61
+경과 시간: 00:00:09.93

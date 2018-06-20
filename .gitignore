@@ -1,6 +1,6 @@
 *.ipch
 *.txt
-.opensdf
+*.opensdf
 /Eigen
 /ipch
 /x64
